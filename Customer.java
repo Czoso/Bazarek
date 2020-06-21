@@ -1,17 +1,17 @@
-package com.company;
+package com.company.People;
 
 public class Customer
 {
     private String name;
-    private static int applequantity;
-    private static int carrotquantity;
-    private static int strawberryquantity;
+    private static int appleQuantity;
+    private static int carrotQuantity;
+    private static int strawberryQuantity;
     private static int coins;
     public Customer(String n, int a, int c, int s, int coin)
     {
-        applequantity = a;
-        carrotquantity = c;
-        strawberryquantity = s;
+        appleQuantity = a;
+        carrotQuantity = c;
+        strawberryQuantity = s;
         name = n;
         coins = coin;
     }
@@ -23,17 +23,17 @@ public class Customer
     {
         name = name1;
     }
-    public static void setAppleQuantity(int applequantity1)
+    public static void setAppleQuantity(int appleQuantity1)
     {
-        applequantity = applequantity1;
+        appleQuantity = appleQuantity1;
     }
-    public static void setCarrotQuantity(int carrotquantity1)
+    public static void setCarrotQuantity(int carrotQuantity1)
     {
-        carrotquantity = carrotquantity1;
+        carrotQuantity = carrotQuantity1;
     }
-    public static void setStrawberryQuantity(int strawberryquantity1)
+    public static void setStrawberryQuantity(int strawberryQuantity1)
     {
-        strawberryquantity = strawberryquantity1;
+        strawberryQuantity = strawberryQuantity1;
     }
     public int getCoins()
     {
@@ -41,15 +41,15 @@ public class Customer
     }
     public int getAppleQuantity()
     {
-        return applequantity;
+        return appleQuantity;
     }
     public int getCarrotQuantity()
     {
-        return carrotquantity;
+        return carrotQuantity;
     }
     public int getStrawberryQuantity()
     {
-        return strawberryquantity;
+        return strawberryQuantity;
     }
     public static void setCoins(int coins1)
     {

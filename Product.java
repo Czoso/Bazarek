@@ -3,12 +3,24 @@ package com.company;
 public class Product
 {
     private String type;
-    public Product(String t)
+    private int price;
+    public Product(String t, int price )
     {
         type = t;
+        this.price=price;
     }
     public String getName()
+{
+    return type;
+}
+    public int getPrice()
     {
-        return type;
+        return price;
     }
+    public void setPrice(int price)
+    {
+        this.price=price;
+    }
+
+
 }
